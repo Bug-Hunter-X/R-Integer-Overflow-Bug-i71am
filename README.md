@@ -1,0 +1,3 @@
+This repository contains an example of an integer overflow bug in R and its solution.  Integer overflow occurs when an arithmetic operation results in a value that is too large to be represented by the data type.  In R, integers are typically 32-bit, meaning there's a limited range of values they can store.  Attempting to exceed this range can cause unexpected behavior, including silent errors where the result wraps around to a smaller value or throws an error in some cases.
+
+The `bug.r` file demonstrates this issue, while `bugSolution.r` provides a solution.
